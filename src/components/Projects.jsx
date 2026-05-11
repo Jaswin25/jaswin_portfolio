@@ -16,7 +16,8 @@ const projects = [
     emoji: '🍔',
     features: ['Token generation', 'Live order tracking', 'Admin dashboard', 'Real-time serve'],
     github: '#',
-    demo: '#',
+    demo: 'https://quick-canteen-flame.vercel.app/',
+
     category: 'Cloud & DevOps',
   },
   {

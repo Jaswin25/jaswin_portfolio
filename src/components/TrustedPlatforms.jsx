@@ -18,7 +18,8 @@ const platforms = [
     id: 2,
     name: 'Quick Canteen Demo',
     desc: 'Real-time canteen food ordering system with live order tracking and admin dashboard.',
-    url: '#',
+    url: 'https://quick-canteen-flame.vercel.app/',
+
     icon: HiShoppingCart,
     color: '#DC2626',
     badge: 'Live Demo',
