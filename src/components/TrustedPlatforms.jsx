@@ -49,7 +49,8 @@ const platforms = [
     id: 5,
     name: 'GitHub Portfolio',
     desc: 'Browse all my open-source projects, code repositories, and contributions on GitHub.',
-    url: 'https://github.com/jaswinrs',
+    url: 'https://github.com/Jaswin25',
+
     icon: FaGithub,
     color: '#7F1D1D',
     badge: 'Open Source',

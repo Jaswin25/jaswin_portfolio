@@ -11,7 +11,8 @@ const contactInfo = [
 ]
 
 const socialLinks = [
-  { icon: FaGithub, label: 'GitHub', href: 'https://github.com/jaswinrs', color: '#f8fafc' },
+  { icon: FaGithub, label: 'GitHub', href: 'https://github.com/Jaswin25', color: '#f8fafc' },
+
   { icon: FaLinkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/jaswin-r-s-9155702a5?utm_source=share_via&utm_content=profile&utm_medium=member_android', color: '#EF4444' },
   { icon: FaEnvelope, label: 'Email', href: 'mailto:jaswinjazz25@gmail.com', color: '#DC2626' },
 ]

@@ -12,7 +12,8 @@ const profileImg = '/jazz2.jpeg'
 
 
 const socialLinks = [
-  { icon: FaGithub, href: 'https://github.com/jaswinrs', label: 'GitHub', color: '#f8fafc' },
+  { icon: FaGithub, href: 'https://github.com/Jaswin25', label: 'GitHub', color: '#f8fafc' },
+
   { icon: FaLinkedin, href: 'https://www.linkedin.com/in/jaswin-r-s-9155702a5?utm_source=share_via&utm_content=profile&utm_medium=member_android', label: 'LinkedIn', color: '#ef4444' },
   { icon: FaEnvelope, href: 'mailto:jaswinjazz25@gmail.com', label: 'Email', color: '#dc2626' },
 ]
