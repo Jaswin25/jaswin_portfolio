@@ -30,7 +30,8 @@ const projects = [
     emoji: '🇮🇳',
     features: ['Curated itineraries', 'Interactive maps', 'Cultural insights', 'Booking UI'],
     github: '#',
-    demo: 'https://experiencedindia.com',
+    demo: 'https://www.experienceindiaupdates.org/',
+
     category: 'Travel & Culture',
     featured: true,
     trusted: true,

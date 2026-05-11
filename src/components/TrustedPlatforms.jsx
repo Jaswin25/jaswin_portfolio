@@ -12,7 +12,7 @@ const platforms = [
     icon: HiTicket,
     color: '#FF0000',
     badge: '⭐ Trusted Partner',
-    tags: ['React', 'Booking', 'Tickets'],
+    tags: ['React', 'Booking', 'Tickets','GoLang'],
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const platforms = [
     icon: HiShoppingCart,
     color: '#DC2626',
     badge: 'Live Demo',
-    tags: ['GoLang', 'Real-time', 'Food'],
+    tags: [ 'Real-time', 'Food' ,'react','supabase'],
   },
   {
     id: 3,

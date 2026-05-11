@@ -8,6 +8,8 @@ import {
 import { SiGo, SiKubernetes, SiMongodb, SiTailwindcss } from 'react-icons/si'
 const profileImg = '/jazz2.jpeg'
 
+
+
 const socialLinks = [
   { icon: FaGithub, href: 'https://github.com/jaswinrs', label: 'GitHub', color: '#f8fafc' },
   { icon: FaLinkedin, href: 'https://www.linkedin.com/in/jaswin-r-s-9155702a5?utm_source=share_via&utm_content=profile&utm_medium=member_android', label: 'LinkedIn', color: '#ef4444' },
@@ -171,7 +173,8 @@ export default function Hero({ isDark }) {
                 <img
                   src={profileImg}
                   alt="Jaswin R S"
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-full object-cover object-mid transition-transform duration-700 group-hover:scale-110"
+
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-red-950/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>

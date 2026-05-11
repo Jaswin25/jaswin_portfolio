@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { FaCode, FaCloud, FaBrain, FaServer } from 'react-icons/fa'
+const profileImg = '/jazz2.jpeg'
+
+
 
 const highlights = [
   { icon: FaCloud, label: 'Cloud & DevOps', desc: 'Azure, Docker, Kubernetes, Linux, Terraform', color: '#ef4444' },
@@ -111,9 +114,11 @@ export default function About({ isDark }) {
                 className="glass-card p-8 sm:col-span-2 border-red-500/20"
               >
                 <div className="flex flex-col sm:flex-row items-center gap-6">
-                  <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-red-600 to-red-900 flex items-center justify-center text-3xl font-bold text-white font-display flex-shrink-0 shadow-lg shadow-red-600/20">
-                    JS
-                  </div>
+                    <div className="w-20 h-20 rounded-2xl overflow-hidden flex-shrink-0 shadow-lg shadow-red-600/20 border border-red-500/20">
+                      <img src={profileImg} alt="Jaswin" className="w-full h-full object-cover object-top" />
+
+                    </div>
+
                   <div className="text-center sm:text-left">
                     <h3 className={`font-display font-extrabold text-2xl ${isDark ? 'text-white' : 'text-slate-900'}`}>Jaswin R S</h3>
                     <p className="text-red-400 text-sm font-mono tracking-wide mt-1">Full-Stack | Cloud Architect | AI/ML</p>
