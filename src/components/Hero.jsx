@@ -122,7 +122,8 @@ export default function Hero({ isDark }) {
               className="flex flex-wrap items-center justify-center lg:justify-start gap-5 mb-12"
             >
               <motion.a
-                href="/Resume.pdf .pdf"
+                href="/Resume.pdf"
+
                 target="_blank"
                 rel="noopener noreferrer"
 
