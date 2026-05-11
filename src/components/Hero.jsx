@@ -2,8 +2,9 @@ import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 import { Link } from 'react-scroll'
 import {
-  FaGithub, FaLinkedin, FaEnvelope, FaDownload,
+  FaGithub, FaLinkedin, FaEnvelope, FaDownload, FaEye,
   FaReact, FaNodeJs, FaPython, FaDocker, FaLinux
+
 } from 'react-icons/fa'
 import { SiGo, SiKubernetes, SiMongodb, SiTailwindcss } from 'react-icons/si'
 const profileImg = '/jazz2.jpeg'
@@ -123,17 +124,16 @@ export default function Hero({ isDark }) {
             >
               <motion.a
                 href="/Resume.pdf"
-
                 target="_blank"
                 rel="noopener noreferrer"
-
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-neon flex items-center gap-2 px-10 py-4 text-base"
               >
-                <FaDownload className="w-4 h-4" />
-                Resume
+                <FaEye className="w-4 h-4" />
+                View Resume
               </motion.a>
+
             </motion.div>
 
             {/* Socials */}
