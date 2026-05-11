@@ -122,8 +122,10 @@ export default function Hero({ isDark }) {
               className="flex flex-wrap items-center justify-center lg:justify-start gap-5 mb-12"
             >
               <motion.a
-                href="/resume-jaswin.pdf"
-                download
+                href="/Resume.pdf .pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-neon flex items-center gap-2 px-10 py-4 text-base"
